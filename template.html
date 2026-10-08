@@ -1,0 +1,40 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="script.js"></script>
+		<title>Ayush Supe</title>
+	</head>
+
+	<body class = "min-vh-100 d-flex flex-column" onload = "home(); ">
+		<nav class = "navbar navbar-expand-sm navbar-dark" style = "background-color: #6900a6">
+			<div class = "container-fluid">
+				<ul class = "navbar-nav me-auto">
+					<li class = "nav-item">
+						<a class = "nav-link" onclick = "home();">Home</a>
+					</li>
+					<li class = "nav-item">
+						<a class = "nav-link">Resume</a>
+					</li>
+					<li class = "nav-item">
+						<a class = "nav-link">Math stuff</a>
+					</li>
+					<li class = "nav-item">
+						<a class = "nav-link" onclick = "threeD_printing();">3D Printing</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class = "container-fluid flex-grow-1 d-flex flex-column">
+			<div class = "row flex-grow-1">
+				<div class = "col-sm-2 backgroundDiv"></div>
+				<div class = "col-sm-8" id = "titleDiv"></div>
+				<div class = "col-sm-2 backgroundDiv"></div>
+			</div>
+		</div>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

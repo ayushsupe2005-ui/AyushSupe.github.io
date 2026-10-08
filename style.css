@@ -1,0 +1,19 @@
+#title{
+	
+	
+}
+
+#titleDiv{
+	background-color: #000000; 
+	color: #ffffff; 
+	
+}
+.backgroundDiv{
+	background-color: #220a4f; 
+}
+.nav-link{
+	transition: background-color 0.25s
+}
+.nav-link:hover{
+	background-color: black; 
+}
